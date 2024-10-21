@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        body{
+           background-color: black;
+           color: aliceblue;
+           display: grid;
+           place-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <form action="quntnex.html">
+            <h2>LOG-IN PAGE</h2>
+            <label for="username">username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" pattern="^[a-z0-9]+$" title="enetr username having only lowercase and digits"><br><br>
+            <label for="password">password:</label>
+            <input type="text" id="password" name="password" placeholder="Enter password" pattern="^[0-9]{8}$" title="Enter password grater than 8 charecters"><br><br>
+            <input type="submit" value="Login" >
+        </form>
+    </center>
+</body>
+</html>
